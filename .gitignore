@@ -1,0 +1,63 @@
+# ========================
+# Virtual Environment
+# ========================
+venv/
+env/
+.venv/
+ENV/
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Environment Variables (BÍ MẬT - KHÔNG COMMIT)
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# HuggingFace / AI Models
+# ========================
+# Cache mô hình (rất nặng, hàng GB)
+.cache/
+models/
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.onnx
+
+# ========================
+# Jupyter Notebook
+# ========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================
+# IDE & Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ========================
+# Logs & Temp files
+# ========================
+*.log
+logs/
+tmp/
+temp/
